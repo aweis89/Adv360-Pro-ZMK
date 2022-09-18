@@ -16,7 +16,6 @@
           quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
-          global-quick-tap;
       };
     };
 
@@ -29,7 +28,7 @@ bindings = <
 &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp KP_NUMBER_1                                                              &kp KP_NUMBER_3 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
 &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp KP_NUMBER_2  &kp LGUI &kp LALT             &kp LGUI  &kp LGUI            &kp KP_NUMBER_4 &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
 &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none     &none    &kp LSHFT &none &none &kp RSHFT &none     &none            &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-&mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT          &mt LSHFT BKSP  &kp LCTRL &kp DEL             &kp PG_DN &kp ENTER &mt RSHIFT SPACE               &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+&mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT          &hm LSHFT BKSP  &kp LCTRL &kp DEL             &kp PG_DN &kp ENTER &hm RSHIFT SPACE               &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
         >;
     };
     keypad {

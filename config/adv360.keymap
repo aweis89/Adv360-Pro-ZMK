@@ -43,10 +43,10 @@ bindings = <
     fn {
       bindings = <
         &kp F1  &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                                          &mo 3 &kp F7  &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &kp ESC &trans &trans &trans &trans  &none                                                          &none &kp CARET &kp LBKT &kp UNDER &trans    &trans  &trans
-        &trans  &trans &trans &trans &trans &trans  &none        &trans &trans             &trans &trans           &none &trans    &kp LPAR &kp EQUAL &trans    &trans  &trans
-        &trans  &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none           &trans    &kp LBRC &kp PIPE  &kp TILDE &trans  &trans
-        &trans  &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans                    &trans   &trans    &trans    &trans  &trans
+        &trans &kp ESC &trans &trans &trans &trans  &none                                                          &none &kp CARET &kp LBKT &kp UNDER &kp DLLR  &trans   &trans
+        &trans  &trans &trans &trans &trans &trans  &none        &trans &trans             &trans &trans           &none &kp AMPS  &kp LPAR &kp MINUS &kp EQUAL &kp EXCL &trans
+        &trans  &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none           &trans    &kp LBRC &kp PIPE  &kp TILDE &trans   &trans
+        &trans  &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans                    &trans   &trans    &trans    &trans   &trans
       >;
     };
     mod {

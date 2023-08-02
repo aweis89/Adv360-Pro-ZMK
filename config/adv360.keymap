@@ -5,6 +5,20 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+   combos {
+       compatible = "zmk,combos";
+       combo_esc {
+           timeout-ms = <100>;
+           key-positions = <15 16>;
+           bindings = <&kp ESC>;
+       };
+       combo_tab {
+           timeout-ms = <100>;
+           key-positions = <18 23>;
+           bindings = <&kp TAB>;
+       };
+   };
+
     behaviors {
       #include "macros.dtsi"
 

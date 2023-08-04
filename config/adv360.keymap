@@ -9,7 +9,7 @@
        compatible = "zmk,combos";
        combo_tab {
            timeout-ms = <100>;
-           key-positions = <18 23>;
+           key-positions = <19 22>;
            bindings = <&kp TAB>;
        };
    };

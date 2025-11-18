@@ -1,0 +1,6 @@
+draw_config:
+  n_columns: 2  # Show 2 layers side by side
+  key_w: 60.0
+  key_h: 56.0
+  split_gap: 30.0
+  dark_mode: false

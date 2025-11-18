@@ -1,6 +1,10 @@
 draw_config:
-  n_columns: 2  # Show 2 layers side by side
-  key_w: 60.0
-  key_h: 56.0
-  split_gap: 30.0
+  n_columns: 2          # Show 2 layers side by side
+  key_w: 70.0           # Larger key width
+  key_h: 65.0           # Larger key height
+  split_gap: 10.0       # Gap between keyboard halves
+  outer_pad_w: 5.0     # Reduced horizontal padding (default: 30.0)
+  outer_pad_h: 10.0     # Reduced vertical padding (default: 56.0)
+  inner_pad_w: 1.0      # Padding within keys
+  inner_pad_h: 1.0      # Padding within keys
   dark_mode: false
